@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Black background color */
+    color: #000000;
+  }
+  
+  .header {
+    font-size: 24px;
+    margin: 20px 0; 
+    color: red;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
